@@ -13,7 +13,7 @@ Adding the following source block will enable the datadog out plugin for FluentD
 | Key           | Default         | Required  |
 |:------------- |:---------------:|:---------:|
 | `host`        | `localhost`     |    no    |
-| `port`        | `18125`         |    no     |
+| `port`        | `8125`          |    no     |
 | `tags`        | `nil`           |    no     |
 
 # Fluent::Plugin::PhpFpmStatusDatadogOut, a plugin for [Fluentd](http://fluentd.org) to emit php-fpm metrics gathered from log lines and prepare for further use with Fluent::Plugin::DatadogOut.
